@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Apri in Incognito Rapido",
+  "version": "1.0",
+  "icons": {
+    "16": "images/uts-icon-16.png",
+    "128": "images/uts-icon-128.png"
+  },
+  "permissions": ["contextMenus", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
